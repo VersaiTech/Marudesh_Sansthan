@@ -43,6 +43,11 @@
 # Error 404
 # Boxed Home
 --------------------------------------------------------------*/
+
+
+
+
+
 :root {
   --eduhive-font: "Plus Jakarta Sans", sans-serif;
   --eduhive-text: #7B7980;
@@ -8599,7 +8604,7 @@ li:hover .contact-page__info__icon__inner {
   --bs-gutter-y: 24px;
 }
 .about-two__info {
-  display: flex;
+  display: wrap;
   align-items: center;
   gap: 12px;
 }
@@ -10529,7 +10534,7 @@ li:hover .contact-page__info__icon__inner {
 .funfact-one--round .funfact-one__item {
   padding: 40px 30px 33px;
   border: 0;
-  border-radius: 135px;
+ 
 }
 .funfact-one--round .funfact-one__item--secondary {
   background-color: RGBA(var(--eduhive-secondary-rgb, 57, 212, 214), 0.1);
@@ -10622,8 +10627,7 @@ li:hover .contact-page__info__icon__inner {
 }
 .funfact-one__icon {
   margin: 0 auto 12px;
-  width: 70px;
-  height: 70px;
+  
   display: flex;
   align-items: center;
   justify-content: center;
